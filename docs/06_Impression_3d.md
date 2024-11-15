@@ -7,5 +7,9 @@ Le PLA est le plastique de base, celui avec lequel tous les apprentis font leurs
 Les pièces ici offertes ont été conçues à l'aide du logiciel _FreeCad_
 
 ## Tranchage (logiciel de préparation finale)
+
 Les pièces ici présentées ont été préparée à l'aide du logiciel _Cura_
 
+---
+
+[L'assemblage](05_Assemblage.md)  <<<  [Table des matières](README.md)   >>>   [La programmation](07_Programmation.md)

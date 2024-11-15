@@ -1,9 +1,11 @@
-# Électrique
+# Liste du matériel, des bibliothèques et outils nécessaires
+
+## Électrique
 * Transformateur 120 VAC -> 5 VDC
 * Plusieurs sections de fil (un câble réseau peut fournir tout cela, en 8 couleurs)
 * Fils à connecteurs Dupont
 
-# Électronique
+## Électronique
 * Carte perforée aux dimensions appropriées ( au moins 10 par 24 trous espacés de 2.54 mm)
 * DEL trois couleurs (RVB)
 * Deux interrupteurs
@@ -13,7 +15,7 @@
 * Raspberry PI Pico
 * (option clavier à membrane) .. et oui ! ... le clavier à membrane 
 
-# Impression 3d
+## Impression 3d
 * Imprimer les quatre composantes du support en PLA
     * Une base (structure)
     * Une vis sans fin (boulon)
@@ -24,7 +26,7 @@
     * Dessus
     * Couvercle
 
-# Informatique
+## Informatique
 * Éditeur et compilateur de code Arduino (IDE)
 * Bibliothèques installées: 
     * Stepper.h
@@ -33,11 +35,11 @@
     * (pour l'option clavier à membrane): Keypad.h
 * Pilote de carte: Raspberry PI Pico
 
-# Mécanique
+## Mécanique
 * Verrou
 * Vis à bois
 
-# Outils
+## Outils
 * Kit à souder
     * fer à souder
     * étain

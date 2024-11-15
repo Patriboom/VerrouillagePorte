@@ -1,0 +1,13 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Keypad	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+key		KEYWORD2
+Keypad	KEYWORD2
+getKey	KEYWORD2

@@ -28,4 +28,4 @@ Le système est appelé à gérer aussi la vérification d'un code d'accès intr
 Le système électronique meut la barre d'un verrou en acier, barre d'environ 1cm de diamètre.
 
 -----
-[Table des matières](README.md)   >>>  [Le nécessaires](02_MaterielNecessaire.md)
+[Table des matières](README.md)   >>>  [Le nécessaire](02_MaterielNecessaire.md)

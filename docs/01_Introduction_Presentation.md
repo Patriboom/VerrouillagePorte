@@ -26,3 +26,6 @@ Le système est appelé à gérer aussi la vérification d'un code d'accès intr
 <img src="https://boutique.semageek.com/1307-thickbox_default/clavier-membrane-souple-3x4.jpg" width="300" alt="Image d'internet: Clavier à membrane" />
 <br clear="all"><br clear="all">
 Le système électronique meut la barre d'un verrou en acier, barre d'environ 1cm de diamètre.
+
+-----
+[Table des matières](README.md)   >>>  [Le nécessaires](02_MaterielNecessaire.md)

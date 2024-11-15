@@ -7,7 +7,7 @@ Oui, vous pouvez acheter des produits tout faits, mais vous n'aurez pas la satis
 Voici la pièce centrale du système: le support avec son moteur et ses pièces mobiles.
 ![Verrou installé](../images/Motorisation_Barrure_v2.jpg) Vue d'une installation fonctionnelle
 
-#Table des matières
+# Table des matières
 
 1. [Introduction et présentation](01_Introduction_Presentation.md)
 2. [Liste du matériel, des bibliothèques et des outils nécessaires](02_MaterielNecessaire.md)

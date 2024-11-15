@@ -24,8 +24,8 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 ## Arrêt du moteur (fin du mouvement)
 
 ---
-[Étape suivante: Premier test](08_PremierTest.md)
+[Impression 3d](06_Impression_3d.md) <<<  [Retour à la table des matières](README.md)  >>>  [Premier test] (08_PremierTest.md)
 
-[Retour à la table des matières](README.md)
 
-[Page précédente: Impression 3d](06_Impression_3d.md)
+
+

@@ -1,4 +1,4 @@
-# Introduction et présentation du projet
+# 1.Introduction et présentation du projet
 Ma résidence dispose - heureusement en cas d'urgence! - de deux portes d'accès.  Une d'entre elles mène vers un espace commun.  Elle ne pouvait pas être verrouillée.  L'autre mène à l'extérieur et se verrouille à clef.  Cependant, l'installation laisse à désirer; il est facile de forcer la serrure et d'entrer.  Je l'ai d'ailleurs fait à quelques reprises lorsque j'ai oublié ma clef!  Je voulais donc plus de sécurité et la possibilité de me « forcer » à ne pas oublier ma clef avant de partir.
 
 ## Présentation

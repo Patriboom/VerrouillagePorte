@@ -1,4 +1,4 @@
-# Programmation
+# 7. Programmation
 Le code tout entier est disponible dans la banque de fichiers.  Celui-ce est déjà bien commenté.
 
 Ici, je vous explique les différentes parties du code afin que vous puissiez le comprendre ou l'adapter à vos besoins.

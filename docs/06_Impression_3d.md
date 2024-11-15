@@ -1,4 +1,4 @@
-# Impression 3d en PLA
+# 6. Impression 3d en PLA
 Le PLA est le plastique de base, celui avec lequel tous les apprentis font leurs premières expériences en impression 3d.  C'est un matériel abordable et convenant parfaitement à nos besoins.
 
 ## Description des pièces

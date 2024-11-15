@@ -1,4 +1,4 @@
-# Liste du matériel, des bibliothèques et outils nécessaires
+# 2. Liste du matériel, des bibliothèques et outils nécessaires
 
 ## Électrique
 * Transformateur 120 VAC -> 5 VDC

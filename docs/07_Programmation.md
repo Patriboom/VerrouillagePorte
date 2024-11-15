@@ -13,7 +13,7 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 
 # Définitions communes à tout le code (setup)
 
-# Traitement (loop)
+# Traitement en boucle (loop)
 
 ## Vérification de l'état
 
@@ -27,3 +27,5 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 [Étape suivante: Premier test](08_PremierTest.md)
 
 [Retour à la table des matières](README.md)
+
+[Page précédente: Impression 3d](06_Impression_3d.md)

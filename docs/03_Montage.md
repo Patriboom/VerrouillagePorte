@@ -15,6 +15,10 @@ Si vous souhaitez limiter la consommation de broches et de matériel en généra
 	<tr><td><img src="../images/docs_03/BrochesFemelles.jpg" width="200" align="middle" /></td><td><img src="../images/docs_03/Fleche.png" align="middle" /></td><td><img src="../images/composants/CartePerforee.webp" height="200" align="middle" alt="Image d`internet: Rasp PI pico" /></td></tr>
 </table>
 
+Voici comment seront utilisées les broches du Pico dans notre projet.
+<br clear="all" />
+<img src="../images/docs_03/Pico_PinsComment.jpg" align="middle" />
+
 
 ---
 

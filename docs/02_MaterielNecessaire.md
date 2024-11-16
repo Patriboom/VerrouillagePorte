@@ -6,14 +6,16 @@
 * Fils à connecteurs Dupont
 
 ## Électronique
-* Carte perforée aux dimensions appropriées ( au moins 10 par 24 trous espacés de 2.54 mm)
-* DEL trois couleurs (RVB) à anode commune <img src="../images/composants/tri-color-led.jpg" height="100" />
-* Deux interrupteurs
-* Module de pilote de moteur pas à pas ULN2003 <img src="../images/composants/controleur_evidence.jpg" height="100" align="middle" />
-* Module RF5 RC522  (lecteur de cartes magnétiques) <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Z8VwK4ozSmAyzHd_4jV9HgHaHa%26pid%3DApi&f=1&ipt=95ebf6e0bbe265e8812947de3e8391b4048b1301b2ddf30e26ec032f864f3014&ipo=images" height="100" alt="Image d'internet: Carte magnétique" align="middle" />
-* Moteur pas à pas 28BVJ-48 (5 Volts)  <img src="../images/composants/moteur_evidence.jpg" height="100" />
-* Raspberry PI Pico <img src="https://www.electronics-lab.com/wp-content/uploads/2021/01/Hands_On_with_the_RP2040_and_Pico_the_First_In_House_Silicon_and_Microcontroller_From_Raspberry_Pi_Hackster_io.jpg " height="100" align="middle" alt="Image d`internet: Rasp PI pico" /> 
-* (option clavier à membrane) .. et oui ! ... le clavier à membrane <img src="../images/composants/clavierMembrane_4x4.jpg" width="100" align="middle" alt="Image d'internet: Clavier à membrane" />
+|   | Carte perforée aux dimensions appropriées ( au moins 10 par 24 trous espacés de 2.54 mm) |
+| <img src="../images/composants/tri-color-led.jpg" height="100" align="middle" /> | DEL trois couleurs (RVB) à anode commune |
+| --- | Deux interrupteurs |
+|  <img src="../images/composants/controleur_evidence.jpg" height="100" align="middle" />  | Module de pilote de moteur pas à pas ULN2003    |
+|  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Z8VwK4ozSmAyzHd_4jV9HgHaHa%26pid%3DApi&f=1&ipt=95ebf6e0bbe265e8812947de3e8391b4048b1301b2ddf30e26ec032f864f3014&ipo=images" height="100" alt="Image d'internet: Carte magnétique" align="middle" />   | Module RF5 RC522  (lecteur de cartes magnétiques)   |
+| <img src="../images/composants/moteur_evidence.jpg" height="100" align="middle" />    | Moteur pas à pas 28BVJ-48 (5 Volts)    |
+| <img src="https://www.electronics-lab.com/wp-content/uploads/2021/01/Hands_On_with_the_RP2040_and_Pico_the_First_In_House_Silicon_and_Microcontroller_From_Raspberry_Pi_Hackster_io.jpg " height="100" align="middle" alt="Image d`internet: Rasp PI pico" />     | Raspberry PI Pico    |
+|  <img src="../images/composants/clavierMembrane_4x4.jpg" width="100" align="middle" alt="Image d'internet: Clavier à membrane" />   |  (option clavier à membrane) .. et oui ! ... le clavier à membrane   |
+  
+  
 
 ## Impression 3d
 * Imprimer les quatre composantes du support en PLA

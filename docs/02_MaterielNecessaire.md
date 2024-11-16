@@ -6,6 +6,8 @@
 * Fils à connecteurs Dupont
 
 ## Électronique
+
+
 |   | Carte perforée aux dimensions appropriées ( au moins 10 par 24 trous espacés de 2.54 mm) |
 | <img src="../images/composants/tri-color-led.jpg" height="100" align="middle" /> | DEL trois couleurs (RVB) à anode commune |
 | --- | Deux interrupteurs |

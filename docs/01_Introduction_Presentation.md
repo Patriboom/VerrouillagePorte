@@ -8,7 +8,7 @@ Ce projet a été réalisé avec les composants électroniques que j'avais sous 
 Sans surprise, la sécurité étant ce qui est visé lors de l'ajout d'un verrou, la sécurité doit aussi être visée lors de sa motorisation.  L'image ci-bas montre les composants AVANT la finition esthétique de la porte, ceux-ci étant installés dans la structure même de la porte.
 <br clear="all">
 
-<img src="https://github.com/Patriboom/VerrouillagePorte/blob/main/images/EnsemblePorte_Details.jpg" alt="Avant finition de la porte" width="300" />
+<img src="../images/EnsemblePorte_Details.jpg" alt="Avant finition de la porte" width="300" />
 <br clear="all">
 
 ## Fonctionnement
@@ -23,7 +23,7 @@ Ce système est basé sur un Raspberry Pi Pico qui gère l'activation d'un moteu
 <br clear="all">
 Le système est appelé à gérer aussi la vérification d'un code d'accès introduit à l'aide d'un clavier à membrane.
 <br clear="all"><br />
-<img src="https://boutique.semageek.com/1307-thickbox_default/clavier-membrane-souple-3x4.jpg" width="300" alt="Image d'internet: Clavier à membrane" />
+<img src="../images/composants/clavierMembrane_4x4.jpg" width="300" alt="Image d'internet: Clavier à membrane" />
 <br clear="all"><br clear="all">
 Le système électronique meut la barre d'un verrou en acier, barre d'environ 1cm de diamètre.
 

@@ -27,11 +27,14 @@
     <tr><td>Une vis sans fin (boulon)</td><td><img src="../images/impression3d/boulon.jpg" height="100" align="middle" /></td></tr>
     <tr><td>Un butoir</td><td><img src="../images/impression3d/butoir.jpg" height="100" align="middle" /></td></tr>
     <tr><td>Un curseur</td><td><img src="../images/impression3d/curseur.jpg" height="100" align="middle" /></td></tr>
-<tr><td colspan="2">option: boîtier pour clavier en trois sections</td></tr>
+</table>
+<br />
+<table width="100%" border="0">
+<tr><td colspan="2">option: boîtier pour clavier en trois sections<br />C'est ici le modèle gratuitementt par [kolec sur cults3d](https://cults3d.com/fr/mod%C3%A8le-3d/gadget/arduino-keypad-4x4-panel)
+	</td></tr>
     <tr><td>Boîtier</td><td></td></tr>
     <tr><td>Dessus</td><td></td></tr>
     <tr><td>Couvercle</td><td></td></tr>
-C'est ici le modèle gratuitementt par [kolec sur cults3d](https://cults3d.com/fr/mod%C3%A8le-3d/gadget/arduino-keypad-4x4-panel)
 </td></tr>
 </table>
 

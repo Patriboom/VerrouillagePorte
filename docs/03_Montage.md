@@ -7,15 +7,20 @@ Si vous souhaitez limiter la consommation de broches et de matériel en généra
 <br clear="all" />
 <img src="../images/docs_03/Pico_PinsUtilisees.jpg" align="middle" />
 <br clear="all" />
-<table><tr><td colspan="5">Soudez les broches mâles sur le Raspberry PI Pico</td></tr>
-	<tr><td><img src="../images/docs_03/BrochesMales.jpg" width="200" align="middle" /></td>
-		<td><img src="../images/docs_03/plus.png" align="middle" /></td><td><img src="../images/docs_03/PicoSansPin.png" width="200" align="middle" alt="Image d`internet: Rasp PI pico" /></td>
-	<td><img src="../images/docs_03/Fleche.png" align="middle" /></td>
+<table>
+	<tr><td colspan="5">Soudez les broches mâles sur le Raspberry PI Pico</td></tr>
+	<tr>
+		<td><img src="../images/docs_03/BrochesMales.jpg" width="200" align="middle" /></td>
+		<td><img src="../images/docs_03/plus.png" align="middle" /></td>
+		<td><img src="../images/docs_03/PicoSansPin.png" width="200" align="middle" alt="Image d`internet: Rasp PI pico" /></td>
+		<td><img src="../images/docs_03/Fleche.png" align="middle" /></td>
 	</tr>
-	
 	<tr><td colspan="5">Soudez les broches femelles sur la carte perforée.</td></tr>
-	<tr><td><img src="../images/docs_03/BrochesFemelles.jpg" width="200" align="middle" /></td><td><img src="../images/docs_03/plus.png" align="middle" /></td><td><img src="../images/composants/CartePerforee.webp" height="200" align="middle" alt="Image d`internet: Rasp PI pico" /></td>
-	<td><img src="../images/docs_03/Fleche.png" align="middle" /></td>
+	<tr>
+		<td><img src="../images/docs_03/BrochesFemelles.jpg" width="200" align="middle" /></td>
+		<td><img src="../images/docs_03/plus.png" align="middle" /></td>
+		<td><img src="../images/composants/CartePerforee.webp" height="200" align="middle" alt="Image d`internet: Rasp PI pico" /></td>
+		<td><img src="../images/docs_03/Fleche.png" align="middle" /></td>
 	</tr>
 </table>
 

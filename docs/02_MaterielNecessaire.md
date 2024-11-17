@@ -24,7 +24,7 @@
 ## Impression 3d
 <table width="100%" border="0">
 <tr><td colspan="2">Imprimer les quatre composantes du support en PLA</td></tr>
-	<tr><td>Une base (structure)</td><td><img src="../images/impression3d/base.jpg" height="100" align="middle" /></td></tr>
+	<tr><td>Une base (structure)</td><td><img src="../images/impression3d/structure.jpg" height="100" align="middle" /></td></tr>
     <tr><td>Une vis sans fin (boulon)</td><td><img src="../images/impression3d/boulon.jpg" height="100" align="middle" /></td></tr>
     <tr><td>Un butoir</td><td><img src="../images/impression3d/butoir.jpg" height="100" align="middle" /></td></tr>
     <tr><td>Un curseur</td><td><img src="../images/impression3d/curseur.jpg" height="100" align="middle" /></td></tr>
@@ -51,6 +51,9 @@
 ## Mécanique
 * Verrou
 * Vis à bois
+<table>
+<tr><td> <img src="verrou.jpg" height="100" align="middle" /></td><td>Verrou</td></tr>	<tr><td><img src="../images/visBois.jpg" height="100" align="middle" /></td><td>Vis à bois</td></tr>
+</table>
 
 ## Outils
 <table>

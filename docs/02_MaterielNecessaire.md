@@ -52,7 +52,8 @@
 * Verrou
 * Vis à bois
 <table>
-<tr><td> <img src="verrou.jpg" height="100" align="middle" /></td><td>Verrou</td></tr>	<tr><td><img src="../images/visBois.jpg" height="100" align="middle" /></td><td>Vis à bois</td></tr>
+<tr><td> <img src="../images/verrou.jpg" height="100" align="middle" /></td><td>Verrou</td></tr>	
+<tr><td><img src="../images/visBois.jpg" height="100" align="middle" /></td><td>Vis à bois</td></tr>
 </table>
 
 ## Outils

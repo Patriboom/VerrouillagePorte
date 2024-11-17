@@ -6,7 +6,7 @@
 * Fils à connecteurs Dupont
 <table>
 	<tr><td>Fils à connecteurs Dupont</td><td><img src="../images/docs_02/connecteursDupont.jpg" align="middle" height="100" /></td></tr>
-	<tr><td>Plusieurs sections de fil (un càble réseau peut fournir tout cela, en 8 couleurs)</td><td><img src="../images/docs_03/cableReseau.jpg" align="middle" height="100" /></td></tr>
+	<tr><td>Plusieurs sections de fil (un càble réseau peut fournir tout cela, en 8 couleurs)</td><td><img src="../images/docs_03/cableReseau.png" align="middle" height="100" /></td></tr>
 	<tr><td>Transformateur 120 VAC -> 5 VDC</td><td><img src="../images/docs_02/transformateur.jpg" align="middle" height="100" /></td></tr>
 </table>
 

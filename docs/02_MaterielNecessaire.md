@@ -37,7 +37,7 @@
 </table>
 <br />
 <table width="100%" border="0">
-<tr><td colspan="2">option: boîtier pour clavier en trois sections<br />C'est ici le modèle gratuitementt par [kolec sur cults3d](https://cults3d.com/fr/mod%C3%A8le-3d/gadget/arduino-keypad-4x4-panel)
+<tr><td colspan="2">option: boîtier pour clavier en trois sections<br />C'est ici le modèle gratuitementt par <a href="https://cults3d.com/fr/mod%C3%A8le-3d/gadget/arduino-keypad-4x4-panel" target="_blank">kolec sur cults3d</a>
 	</td></tr>
     <tr><td>Boîtier</td><td><img src="../images/docs_02/clavier_boitier.jpg" height="100" align="middle" /></td></tr>
     <tr><td>Couvercle</td><td><img src="../images/docs_02/clavier_panneau.jpg" height="100" align="middle" /></td></tr>

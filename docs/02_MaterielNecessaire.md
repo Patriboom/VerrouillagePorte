@@ -10,7 +10,7 @@
 <table width="100%" border="0">
 <tr><td><img src="../images/composants/CartePerforee.webp" align="middle" height="100" /></td><td>Carte perforée aux dimensions appropriées ( au moins 10 par 24 trous espacés de 2.54 mm)</td></tr>
 <tr><td><img src="../images/composants/tri-color-led.jpg" height="100" align="middle" /></td><td>DEL trois couleurs (RVB) à anode commune</td></tr>
-<tr><td></td><td> Deux interrupteurs</td></tr>
+<tr><td><img src="https://ae01.alicdn.com/kf/HTB1zYRHNpXXXXcxaXXXq6xXFXXXB/1PCS-Endstop-Mechanical-Limit-Switches-3D-Printer-Switch-for-arduino-RAMPS-1-4.jpg" height="100" align="middle" /></td><td> Deux interrupteurs de limites</td></tr>
 <tr><td><img src="../images/composants/controleur_evidence.jpg" height="100" align="middle" /> </td><td>Module de pilote de moteur pas à pas ULN2003</td></tr>
 <tr><td><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Z8VwK4ozSmAyzHd_4jV9HgHaHa%26pid%3DApi&f=1&ipt=95ebf6e0bbe265e8812947de3e8391b4048b1301b2ddf30e26ec032f864f3014&ipo=images" height="100" alt="Image d'internet: Carte magnétique" align="middle" /></td><td>Module RF5 RC522  (lecteur de cartes magnétiques)</td></tr>
 <tr><td><img src="../images/composants/moteur_evidence.jpg" height="100" align="middle" /></td><td>Moteur pas à pas 28BVJ-48 (5 Volts)</td></tr>

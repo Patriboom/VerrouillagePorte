@@ -7,10 +7,11 @@ Si vous souhaitez limiter la consommation de broches et de matériel en généra
 <br clear="all" />
 <img src="../images/docs_03/Pico_PinsUtilisees.jpg" align="middle" />
 <br clear="all" />
-<table>
+
+<table width="100%" border="0">
 	<tr><td colspan="5">Soudez les broches mâles sur le Raspberry PI Pico</td></tr>
 	<tr><td><img src="../images/docs_03/BrochesMales.jpg" width="200" align="middle" /></td>
-		<td><img src="../images/docs_03/plus.png" align="middle" /></td><td><img src="../images/docs_03/PicoSansPin.png" height="200" align="middle" alt="Image d`internet: Rasp PI pico" /></td>
+		<td><img src="../images/docs_03/plus.png" align="middle" /></td><td><img src="../images/docs_03/PicoSansPin.png" width="200" align="middle" alt="Image d`internet: Rasp PI pico" /></td>
 	<td><img src="../images/docs_03/Fleche.png" align="middle" /></td>
 	</tr>
 	

@@ -50,8 +50,6 @@
 * Pilote de carte: Raspberry PI Pico -> utilisez votre interface Arduino-IDE pour cela
 
 ## Mécanique
-* Verrou
-* Vis à bois
 <table>
 <tr><td> <img src="../images/verrou.jpg" height="100" align="middle" /></td><td>Verrou</td></tr>	
 <tr><td><img src="../images/visBois.jpg" height="100" align="middle" /></td><td>Vis à bois</td></tr>
@@ -59,9 +57,10 @@
 
 ## Outils
 <table>
-	<tr><td><img src="https://www.cdiscount.com/pdt2/6/0/7/1/700x700/mon4895179938607/rw/fer-a-souder-electronique-temperature-reglable-60w.jpg" height="100" align="middle" /></td><td>* Kit à souder  
-    * fer à souder 
-		* étain</td></tr>
+	<tr><td><img src="https://www.cdiscount.com/pdt2/6/0/7/1/700x700/mon4895179938607/rw/fer-a-souder-electronique-temperature-reglable-60w.jpg" height="100" align="middle" /></td><td>* Kit à souder  <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- fer à souder <br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- étain<br />
+		</td></tr>
 <tr><td> <img src="https://www.cdiscount.com/pdt2/3/2/0/1/700x700/auc2008563793320/rw/xuy-15pcs-jeu-de-forets-a-bois-plat-a-pique-hexago.jpg" height="100" align="middle" /></td><td>Perceuse & forêts à bois</td></tr>
 <tr><td><img src="https://www.malinelle.com/ressources/cache/imgcorner/3/9/39110_1_1024x1024.jpg" height="100" align="middle" /></td><td>Pistolet à colle chaude et colle chaude</td></tr>
 <tr></td><td><td>Tous les petits outils habituels permettant de couper et dégainer les fils</td></tr>

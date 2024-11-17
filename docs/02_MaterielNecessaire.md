@@ -9,6 +9,7 @@
 
 <table width="100%" border="0">
 <tr><td><img src="../images/composants/CartePerforee.webp" align="middle" height="100" /></td><td>Carte perforée aux dimensions appropriées ( au moins 10 par 24 trous espacés de 2.54 mm)</td></tr>
+<tr><td><img src="../images/composants/BrochesMontage.webp" height="100" align="middle" /></td><td>Connecteurs mâles et femelles pour circuit imprimé</td></tr>
 <tr><td><img src="../images/composants/tri-color-led.jpg" height="100" align="middle" /></td><td>DEL trois couleurs (RVB) à anode commune</td></tr>
 <tr><td><img src="https://ae01.alicdn.com/kf/HTB1zYRHNpXXXXcxaXXXq6xXFXXXB/1PCS-Endstop-Mechanical-Limit-Switches-3D-Printer-Switch-for-arduino-RAMPS-1-4.jpg" height="100" align="middle" /></td><td> Deux interrupteurs de limite</td></tr>
 <tr><td><img src="../images/composants/controleur_evidence.jpg" height="100" align="middle" /> </td><td>Module de pilote de moteur pas à pas ULN2003</td></tr>
@@ -16,7 +17,7 @@
 <tr><td><img src="../images/composants/moteur_evidence.jpg" height="100" align="middle" /></td><td>Moteur pas à pas 28BVJ-48 (5 Volts)</td></tr>
 <tr><td><img src="https://www.electronics-lab.com/wp-content/uploads/2021/01/Hands_On_with_the_RP2040_and_Pico_the_First_In_House_Silicon_and_Microcontroller_From_Raspberry_Pi_Hackster_io.jpg " height="100" align="middle" alt="Image d`internet: Rasp PI pico" /></td><td>Raspberry PI Pico</td></tr>
 <tr><td><img src="../images/composants/clavierMembrane_4x4.jpg" width="100" align="middle" alt="Image d'internet: Clavier à membrane" /></td><td>(option clavier à membrane) .. et oui ! ... le clavier à membrane</td></tr>
-<tr><td><img src="../images/composants/BrochesMontage.webp" height="100" align="middle" /></td><td>Connecteurs mâles et femelles pour circuit imprimé</td></tr>
+
 </table>
   
   

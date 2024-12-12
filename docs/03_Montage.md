@@ -14,6 +14,7 @@ Si vous souhaitez limiter la consommation de broches et de matériel en généra
 		<td><img src="../images/docs_03/plus.png" align="middle" /></td>
 		<td><img src="../images/docs_03/PicoSansPin.png" width="200" align="middle" alt="Image d`internet: Rasp PI pico" /></td>
 		<td><img src="../images/docs_03/Fleche.png" align="middle" /></td>
+		<td><img src="../images/docs_03/RaspPicoBroches.jpg" width="200" align="middle" alt="Raspberry avec broches" /></td>
 	</tr>
 	<tr><td colspan="5">Soudez les broches femelles sur la carte perforée.</td></tr>
 	<tr>
@@ -21,6 +22,7 @@ Si vous souhaitez limiter la consommation de broches et de matériel en généra
 		<td><img src="../images/docs_03/plus.png" align="middle" /></td>
 		<td><img src="../images/docs_03/carteCircuit.png" height="200" align="middle" alt="Image d`internet: Rasp PI pico" /></td>
 		<td><img src="../images/docs_03/Fleche.png" align="middle" /></td>
+		<td><img src="../images/docs_03/carteMere_02.jpg" width="200" align="middle" alt="Carte mère" /></td>
 	</tr>
 </table>
 

@@ -45,7 +45,7 @@
 
 ## Informatique
 * Éditeur et compilateur de code [Arduino IDE](https://www.arduino.cc/en/software)
-* [Bibliothèques installées](../tree/main/src/bibliotheques): 
+* [Bibliothèques installées](https://github.com/Patriboom/VerrouillagePorte/tree/main/src/bibliotheques): 
     * Stepper.h
     * SPI.h
     * MFRC522.h

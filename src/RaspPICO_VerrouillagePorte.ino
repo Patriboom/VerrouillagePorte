@@ -4,7 +4,7 @@
 #include <Keypad.h>
 
 //Raspberry Pi Pico (non, pas Wifi)
-//----------------------------Liste des GPI0 attribués au projet ci-bas ---------------------------------------------------------------------
+//----------------------------Liste des GPIO attribués au projet ci-bas ---------------------------------------------------------------------
 //00  clavier 4x4 - blanc-brun
 //01	clavier 4x4 - brun
 //02	Moteur - blanc-orange
@@ -18,9 +18,9 @@
 //10	clavier 4x4 - bleu
 //11	clavier 4x4 - blanc-vert
 //12	
-//13	pinDEL - rouge
-//14	pinDEL - vert
-//15	pinDEL - bleu
+//13	pinDER - rouge
+//14	pinDEV - vert
+//15	pinDEB - bleu
 //16	Carte identification    -- blanc-vert
 //17	Carte identification    -- blanc-bleu
 //18	Carte identification    -- blanc-brun
@@ -137,7 +137,15 @@ void setup() {
   digitalWrite(pinDEV, LOW);
   digitalWrite(pinDEB, LOW);
 
+  delay(1000);
+
+  if (digitalRead(pinSW1) == digitalRead(pinSW2)) {
+    Serial.println("Nous avons trouvé le verrou en position médiane; nous ouvrons la porte.");
+    libre = "ouvrons";
+    mouvonsMoteur();
+  }
   Serial.println("Voici que tout est défini.  Il ne reste qu`à jouer de la porte.");
+
 }  // fin de setup()
 
 void loop() {
@@ -157,7 +165,6 @@ void loop() {
     delay(50);
     return;
   }
-  Serial.println("Nous voici en analyse de carte.");
   digitalWrite(pinDER, LOW);
   digitalWrite(pinDEV, LOW);
   digitalWrite(pinDEB, HIGH);
@@ -208,6 +215,10 @@ void loop() {
       delay(50);
   }
   Serial.println("Fin du signal lumineux confirmant la lecteur réussie.  On passe au jaune.");
+  mouvonsMoteur();
+} //Fin de loop()
+
+void mouvonsMoteur() {
   Serial.print  ("État de la situation: ");
   Serial.println(libre);
 
@@ -259,7 +270,7 @@ void loop() {
   digitalWrite(pinDEB, LOW);
   codeEntree = "";
   libre = "oui";
-} //Fin de loop()
+}
 
 
 bool carteValide(byte *buffer, byte bufferSize) {
@@ -270,5 +281,12 @@ bool carteValide(byte *buffer, byte bufferSize) {
   }
   pat.toUpperCase();
   pat.trim();
+    Serial.print(F("Remise à zéro des valeurs:"));    //Dump UID
+    for (byte i = 0; i < cartes.uid.size; i++) {
+      Serial.print(cartes.uid.uidByte[i] < 0x10 ? " 0" : " ");
+      Serial.print(cartes.uid.uidByte[i], HEX);
+      cartes.uid.uidByte[i] = 0;
+    }
+
   return (pat=="89 A3 F0 97") ?  true : false;
 }

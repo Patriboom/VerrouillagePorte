@@ -38,9 +38,9 @@
 /*----- Variables, Pins -----*/
 //#define STEPS  4      // Number of steps per revolution of Internal shaft
 int delai = 60000;      //La DEL restera allumée - en rouge ou vert - pendant une minute après la fin du mouvement, tandis que durant le mouvement elle affichera jaune
-int pas = 25;           // 1 tour = 2048   // Était à 25, ce 12 novembre 2024 à 12h
+int pas = 20;           // 1 tour = 2048   // Était à 25, ce 12 novembre 2024 à 12h
 int sens = 1;
-int vitesseMax = 1000;      //Max 700
+int vitesseMax = 700;      //Max 700
 String libre = "oui";
 bool tourne = false;
 bool initOUV = false;
@@ -161,18 +161,39 @@ void loop() {
     digitalWrite(pinDEB, LOW);
   }
   char touche = clavier.getKey();
-  if ( (!cartes.PICC_IsNewCardPresent() || !cartes.PICC_ReadCardSerial()) && touche == NO_KEY ) {
+  if ( (!cartes.PICC_IsNewCardPresent() || !cartes.PICC_ReadCardSerial()) && touche == NO_KEY && rien() ) {
     delay(50);
     return;
   }
   digitalWrite(pinDER, LOW);
   digitalWrite(pinDEV, LOW);
   digitalWrite(pinDEB, HIGH);
-  libre = "ouvrons";
-  sens = 1;
   if (carteValide(cartes.uid.uidByte, cartes.uid.size)) { 
     Serial.println("La carte a été jugée valide.");
-  } else if (touche != NO_KEY) {
+    libre = "ouvrons";
+    sens = 1;
+  } else { 
+    //Serial.println("Mauvause carte"); 
+    libre = "oui"; 
+  }
+  if (touche != NO_KEY) {
+    if (rien()) { return; }
+      Serial.print  ("  1: ");
+      Serial.print  (digitalRead(pinCLA1));
+      Serial.print  ("  2: ");
+      Serial.print  (digitalRead(pinCLA2));
+      Serial.print  ("  3: ");
+      Serial.print  (digitalRead(pinCLA3));
+      Serial.print  ("  4: ");
+      Serial.print  (digitalRead(pinCLA4));
+      Serial.print  ("  5: ");
+      Serial.print  (digitalRead(pinCLA5));
+      Serial.print  ("  6: ");
+      Serial.print  (digitalRead(pinCLA6));
+      Serial.print  ("  7: ");
+      Serial.print  (digitalRead(pinCLA7));
+      Serial.print  ("  8: ");
+      Serial.println(digitalRead(pinCLA8));
     if (libre != "oui") { return; }
     Serial.println("Entrons ici dans les tests de clavier");
     if (String(touche) == "*") { 
@@ -181,7 +202,12 @@ void loop() {
       libre = "fermons";
     } else if (String(touche) == "#") {
       //Testons validité du code
-      if (codeEntree != codeValide ) { 
+      if (codeEntree == codeValide ) { 
+        libre = "ouvrons";
+        sens = 1;
+        Serial.print  ("Accès via code valide : ");
+        Serial.println("codeEntree");
+      } else {
         digitalWrite(pinDEV, LOW);
         digitalWrite(pinDEB, LOW);
         for (int x=0; x<3; x++) { digitalWrite(pinDER, HIGH); delay(100); digitalWrite(pinDER, LOW);  delay(50); }
@@ -200,6 +226,7 @@ void loop() {
     Serial.println("Fin des tests de clavier");
   }
 
+  if (libre != "fermons" && libre != "ouvrons") { return; }
   Serial.println("Activons les mouvements du moteur");
   if (digitalRead(pinSW2) == LOW) {
     sens = -1;
@@ -234,7 +261,7 @@ void mouvonsMoteur() {
   
   //Mouvement
   while (libre == "ouvrons" || libre == "fermons") {
-    if (tours/1000 == round(tours/1000) && vitesse < vitesseMax ) { 
+    if (tours/2500 == round(tours/2500) && vitesse < vitesseMax ) { 
       ////Accéléeration du moteur
       vitesse = vitesse+50; moteur.setSpeed(vitesse); 
       Serial.print  ("Nouvelle vitesse fixée à "); 
@@ -258,11 +285,13 @@ void mouvonsMoteur() {
     ////La porte peut être ouverte
     digitalWrite(pinDER, LOW);
     digitalWrite(pinDEV, HIGH);
+    Serial.println("Porte déverrouillée; entrez!");
   }
   if (digitalRead(pinSW2) == HIGH) {
     ////La porte est verrouillée
     digitalWrite(pinDER, HIGH);
     digitalWrite(pinDEV, LOW);
+    Serial.println("Porte verrouilée; partez l`esprit tranquille, car votre porte est sécurisée.");
   }
   delay(1900);
   digitalWrite(pinDER, LOW);
@@ -281,12 +310,39 @@ bool carteValide(byte *buffer, byte bufferSize) {
   }
   pat.toUpperCase();
   pat.trim();
-    Serial.print(F("Remise à zéro des valeurs:"));    //Dump UID
+    //Serial.print(F("Remise à zéro des valeurs de carte magnétique:"));    //Dump UID
     for (byte i = 0; i < cartes.uid.size; i++) {
       Serial.print(cartes.uid.uidByte[i] < 0x10 ? " 0" : " ");
       Serial.print(cartes.uid.uidByte[i], HEX);
       cartes.uid.uidByte[i] = 0;
     }
-
   return (pat=="89 A3 F0 97") ?  true : false;
+}
+
+bool rien() {
+  bool retour = true;
+  if (digitalRead(pinCLA2) != digitalRead(pinCLA1)) { retour = false; 
+    //Serial.println("1 et 2 différents");
+  }
+  if (digitalRead(pinCLA3) != digitalRead(pinCLA1)) { retour = false; 
+    //Serial.println("1 et 3 différents");
+  }
+  if (digitalRead(pinCLA4) != digitalRead(pinCLA1)) { retour = false; 
+    //Serial.println("1 et 4 différents");
+  }
+  if (digitalRead(pinCLA5) != digitalRead(pinCLA1)) { retour = false; 
+    //Serial.println("1 et 5 différents");
+  }
+  if (digitalRead(pinCLA6) != digitalRead(pinCLA1)) { retour = false; 
+    //Serial.println("1 et 6 différents");
+  }
+  if (digitalRead(pinCLA7) != digitalRead(pinCLA1)) { retour = false; 
+    //Serial.println("1 et 7 différents");
+  }
+  if (digitalRead(pinCLA8) != digitalRead(pinCLA1)) { retour = false; 
+    //Serial.println("1 et 8 différents");
+  }
+//  Serial.print  ("Après vérification de l`uniformité des valeurs, nous concluons ainsi: ");
+//  Serial.println(retour);
+  return retour;
 }

@@ -2,9 +2,6 @@
 La programmation est basée sur [Arduino](https://www.arduino.cc/).  L'outils ArduinoIDE est bien connu, répandu et docummenté.
 Le code tout entier est disponible dans la banque de bibliothèques de ArduinoIDE.
 
-Le code spécivique au projet est déjà bien commenté.
-
-
 Ici, je vous explique les différentes parties du code afin que vous puissiez le comprendre ou l'adapter à vos besoins.
 Au travers du code, vous trouverez une foule de commentaires et même des repères et vérifications envoyés à la console afin que vous puissiez superviser la progression de la mise en oeuvre en direct.  Je ne reproduira pas ici les commentaires du code.
 

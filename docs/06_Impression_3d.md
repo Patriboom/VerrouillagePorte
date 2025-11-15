@@ -4,11 +4,11 @@ Le PLA est le plastique de base, celui avec lequel tous les apprentis font leurs
 ## Description des pièces
 
 ## Logiciel de conception
-Les pièces ici offertes ont été conçues à l'aide du logiciel [_FreeCad_]()
+Les pièces ici offertes ont été conçues à l'aide du logiciel [_FreeCad_](https://www.freecad.org/downloads.php)
 Le fichier FreeCad suivant comprend toutes les pièces nécessaires:
 
 [Fichiers FreeCad FCStd](../../../tree/main/imprime_3d/FreeCad/)
-[Motorisation_Barrure_v3](../../../tree/main/imprime_3d/FreeCad/Motorisation_Barrure_v3.FCStd)
+* [Motorisation_Barrure_v3](../../../tree/main/imprime_3d/FreeCad/Motorisation_Barrure_v3.FCStd)
 
 
 ## Tranchage (logiciel de préparation finale)

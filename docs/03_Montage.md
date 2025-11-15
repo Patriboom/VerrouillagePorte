@@ -45,7 +45,6 @@ Les principaux points à vérifier:
 
 * le tenon du verrou ne doit pas s'engager dans les fentes d'immobilisation.
 
-<img src="../images/docs_03/entreeFourreau.jpg" width="200" align="middle" alt="tenon en fourreau" />
 <img src="../images/docs_03/entreeFourreau_clr.jpg" width="200" align="middle" alt="tenon en fourreau" />
 <img src="../images/docs_03/entreeFourreau_des.jpg" width="200" align="middle" alt="tenon en fourreau" />
 <img src="../images/docs_03/entreeFourreau_txt.jpg" width="200" align="middle" alt="tenon en fourreau" />

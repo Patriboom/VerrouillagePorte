@@ -18,7 +18,7 @@ Ce système est basé sur un Raspberry Pi Pico qui gère l'activation d'un moteu
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Z8VwK4ozSmAyzHd_4jV9HgHaHa%26pid%3DApi&f=1&ipt=95ebf6e0bbe265e8812947de3e8391b4048b1301b2ddf30e26ec032f864f3014&ipo=images" height="300" alt="Image d'internet: Carte magnétique" />
 
-<img src="https://www.fatalerrors.org/images/blog/1c6c31c44eaa0ae484c33991acc1eb0c.jpg" height="300" alt="Image d'internet: moteur à pas" />
+<img src="../images/composants/moteur_evidence.jpg" height="300" alt="Image d'internet: moteur à pas" />
 <br clear="all">
 <br clear="all">
 Le système est appelé à gérer aussi la vérification d'un code d'accès introduit à l'aide d'un clavier à membrane.

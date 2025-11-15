@@ -40,7 +40,7 @@ Les principaux points à vérifier:
 * insértion (et retrait) du verrou dans le logement de fermeture: alignement parfait, aisance de mouvement.
 
 	<video width="320" height="240" controls>
-      <source src=”../images/videos/deverrouillage.mpeg” type="video/ogg">
+      <source src=”../images/videos/deverrouillage.mp4” type="video/mp4">
     </video>
 
 * le tenon du verrou ne doit pas s'engager dans les fentes d'immobilisation.

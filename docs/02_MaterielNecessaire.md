@@ -65,7 +65,7 @@
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- étain<br />
 		</td></tr>
 <tr><td> <img src="https://www.cdiscount.com/pdt2/3/2/0/1/700x700/auc2008563793320/rw/xuy-15pcs-jeu-de-forets-a-bois-plat-a-pique-hexago.jpg" height="100" align="middle" /></td><td>Perceuse & forêts à bois</td></tr>
-<tr><td><img src="https://www.malinelle.com/ressources/cache/imgcorner/3/9/39110_1_1024x1024.jpg" height="100" align="middle" /></td><td>Pistolet à colle chaude et colle chaude</td></tr>
+<tr><td><img src="../images/docs_02/pistoletColleChaude.jpg" height="100" align="middle" /></td><td>Pistolet à colle chaude et colle chaude</td></tr>
 <tr></td><td><td>Tous les petits outils habituels permettant de couper et dégainer les fils</td></tr>
 <tr><td></td><td>Tourne-vis</td></tr>
 </table>

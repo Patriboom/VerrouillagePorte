@@ -18,12 +18,12 @@
 <tr><td><img src="../images/composants/controleur_evidence.jpg" height="100" align="middle" /> </td><td>Module de pilote de moteur pas à pas ULN2003</td></tr>
 <tr><td><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Z8VwK4ozSmAyzHd_4jV9HgHaHa%26pid%3DApi&f=1&ipt=95ebf6e0bbe265e8812947de3e8391b4048b1301b2ddf30e26ec032f864f3014&ipo=images" height="100" alt="Image d'internet: Carte magnétique" align="middle" /></td><td>Module RF5 RC522  (lecteur de cartes magnétiques)</td></tr>
 <tr><td><img src="../images/composants/moteur_evidence.jpg" height="100" align="middle" /></td><td>Moteur pas à pas 28BVJ-48 (5 Volts)</td></tr>
-<tr><td><img src="https://www.electronics-lab.com/wp-content/uploads/2021/01/Hands_On_with_the_RP2040_and_Pico_the_First_In_House_Silicon_and_Microcontroller_From_Raspberry_Pi_Hackster_io.jpg " height="100" align="middle" alt="Image d`internet: Rasp PI pico" /></td><td>Raspberry PI Pico</td></tr>
+<tr><td><img src="../images/docs_03/PicoSansPin.png" height="100" align="middle" alt="Image d`internet: Rasp PI pico" /></td><td>Raspberry PI Pico</td></tr>
 <tr><td><img src="../images/composants/clavierMembrane_4x4.jpg" width="100" align="middle" alt="Image d'internet: Clavier à membrane" /></td><td>(option clavier à membrane) .. et oui ! ... le clavier à membrane</td></tr>
 
 </table>
-  
-  
+
+
 
 ## Impression 3d
 <table width="100%" border="0">
@@ -45,7 +45,7 @@
 
 ## Informatique
 * Éditeur et compilateur de code [Arduino IDE](https://www.arduino.cc/en/software)
-* [Bibliothèques installées](https://github.com/Patriboom/VerrouillagePorte/tree/main/src/bibliotheques): 
+* [Bibliothèques installées](https://github.com/Patriboom/VerrouillagePorte/tree/main/src/bibliotheques):
     * Stepper.h
     * SPI.h
     * MFRC522.h
@@ -54,7 +54,7 @@
 
 ## Mécanique
 <table>
-<tr><td> <img src="../images/verrou.jpg" height="100" align="middle" /></td><td>Verrou</td></tr>	
+<tr><td> <img src="../images/verrou.jpg" height="100" align="middle" /></td><td>Verrou</td></tr>
 <tr><td><img src="../images/visBois.jpg" height="100" align="middle" /></td><td>Vis à bois</td></tr>
 </table>
 

@@ -1,4 +1,4 @@
-# 3. Le montage du circuit
+# 3a. Le montage du circuit
 
 ## Le Raspberry PI pico sur une carte
 Puisque vous serez appelé(e) à programmer ou corriger le programme à quelques reprises afin de répondre à vos besoin, je vous suggère de NE PAS souder le Raspberry PI Pico (ci-bas nommé Pico) directement sur la carte perforée.  Optez plutôt pour des broches mâles sur le Pico et des réceptacles femelles sur la carte perforée.
@@ -30,6 +30,22 @@ Voici comment seront utilisées les broches du Pico dans notre projet.
 <br clear="all" />
 <img src="../images/docs_03/Pico_PinsComment.jpg" align="middle" />
 
+# 3b. Le montage mécanique
+À ce point, il serait bon de considérer l'installation du verrou sur votre porte.
+Assurez-vous qu'il coulisse librement et facilement, que le verouillage se fasse sans effort de même que le déverrouillage.
+Gardez en tête que le petit moteur développe peu de puissance, que le tout est assemblée avec du plastique imprimé et  - donc - que toutes les composantes sont fragiles.
+Le mouvement du verrou doit donc en tous points être facile et fluide.
+
+Les principaux points à vérifier:
+* insértion (et retrait) du verrou dans le logement de fermeture: alignement parfait, aisance de mouvement.
+
+	<video width="320" height="240" controls>
+      <source src=”../images/videos/deverrouillage.mpeg” type=video/ogg>
+    </video>
+
+* le tenon du verrou ne doit pas s'engager dans les fentes d'immobilisation.
+
+<img src="../images/docs_03/entreeFourreau.jpg" width="200" align="middle" alt="tenon en fourreau" />
 
 ---
 

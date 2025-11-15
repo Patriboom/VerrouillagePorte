@@ -38,7 +38,7 @@ Le mouvement du verrou doit donc en tous points être facile et fluide.
 
 Les principaux points à vérifier:
 * insértion (et retrait) du verrou dans le logement de fermeture: alignement parfait, aisance de mouvement.
-[![Voyez en action](../images/docs_03/entreeFourreau_clr.jpg)](../images/videos/deverrouillage.mp4)
+[![Voyez en action](../images/videos/deverrouillage.mp4)
 
 * le tenon du verrou ne doit pas s'engager dans les fentes d'immobilisation.
 

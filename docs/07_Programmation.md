@@ -267,60 +267,106 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >}
 
 ### Mouvement du moteur
-void mouvonsMoteur(int Sens, String SensMvt) {
-  libre = (Sens == 0) ? "ouvrons" : SensMvt;
-  sens = (Sens == 0) ? 1 : Sens;
-  Serial.println("Activons les mouvements du moteur");
-  if (digitalRead(pinSW2) == LOW) {
-    sens = -1;
-    libre = "fermons";
-  }
 
-  digitalWrite(pinDER, HIGH);
-  digitalWrite(pinDEV, HIGH);
-  digitalWrite(pinDEB, HIGH);
-  if (Sens != 0) {
-    for (int x=0; x<5; x++) {
-        digitalWrite(pinDEB, LOW);
-        delay(250);
-        digitalWrite(pinDEB, HIGH);
-        delay(250);
-    }
-  }
-  Serial.print  ("État de la situation: ");
-  Serial.print  ((libre == "ouvrons") ? "Femeture demandée. " : "Ouverture demandée. ");
+>void mouvonsMoteur(int Sens, String SensMvt) {
 
-  if (libre == "ouvrons") {
-    digitalWrite(pinDER, LOW);
-    digitalWrite(pinDEV, HIGH);
-  } else {
-    digitalWrite(pinDER, HIGH);
-      digitalWrite(pinDEV, LOW);
-  }
-  digitalWrite(pinDEB, LOW);
-  Serial.print  ("\tVitesse du moteur: ");
-  Serial.print  (vitesseMax);
-  Serial.print  ("\tPas du moteur: ");
-  Serial.println(pas);
-  int tours = 1;
-  int vitesse = 100;
+>  libre = (Sens == 0) ? "ouvrons" : SensMvt;
 
-  //Mouvement
-  while (libre == "ouvrons" || libre == "fermons") {
-    if (tours/2500 == round(tours/2500) && vitesse < vitesseMax ) {
-      ////Accéléeration du moteur
-      vitesse = vitesse+50; moteur.setSpeed(vitesse);
-//      Serial.print  ("Nouvelle vitesse fixée à ");
-//      Serial.println(vitesse);
-    }
-    ////Fin de course atteinte, on met un terme au movement.
-    if ((digitalRead(pinSW2) == LOW && libre == "ouvrons") || (digitalRead(pinSW1) == LOW && libre == "fermons")) {libre = "annoncons"; }
-    moteur.step(sens * pas);
-    delay(10);
-    tours=tours+1;
-  }
+>  sens = (Sens == 0) ? 1 : Sens;
 
-  //Mise au repos du moteur
+>  Serial.println("Activons les mouvements du moteur");
+
+>  if (digitalRead(pinSW2) == LOW) {
+
+>    sens = -1;
+
+>    libre = "fermons";
+
+>  }
+
+
+>  digitalWrite(pinDER, HIGH);
+
+>  digitalWrite(pinDEV, HIGH);
+
+>  digitalWrite(pinDEB, HIGH);
+
+>  if (Sens != 0) {
+
+>    for (int x=0; x<5; x++) {
+
+>        digitalWrite(pinDEB, LOW);
+
+>        delay(250);
+
+>        digitalWrite(pinDEB, HIGH);
+
+>        delay(250);
+
+>    }
+
+>  }
+
+>  Serial.print  ("État de la situation: ");
+
+>  Serial.print  ((libre == "ouvrons") ? "Femeture demandée. " : "Ouverture demandée. ");
+
+
+>  if (libre == "ouvrons") {
+
+>    digitalWrite(pinDER, LOW);
+
+>    digitalWrite(pinDEV, HIGH);
+
+>  } else {
+
+>    digitalWrite(pinDER, HIGH);
+
+>      digitalWrite(pinDEV, LOW);
+
+>  }
+
+>  digitalWrite(pinDEB, LOW);
+
+>  Serial.print  ("\tVitesse du moteur: ");
+
+>  Serial.print  (vitesseMax);
+
+>  Serial.print  ("\tPas du moteur: ");
+
+>  Serial.println(pas);
+
+>  int tours = 1;
+
+>  int vitesse = 100;
+
+
+>  //Mouvement
+
+>  while (libre == "ouvrons" || libre == "fermons") {
+
+>    if (tours/2500 == round(tours/2500) && vitesse < vitesseMax ) {
+
+>      ////Accéléeration du moteur
+
+>      vitesse = vitesse+50; moteur.setSpeed(vitesse);
+
+>    }
+
+>    ////Fin de course atteinte, on met un terme au movement.
+
+>    if ((digitalRead(pinSW2) == LOW && libre == "ouvrons") || (digitalRead(pinSW1) == LOW && libre == "fermons")) {libre = "annoncons"; }
+
+>    moteur.step(sens * pas);
+
+>    delay(10);
+
+>    tours=tours+1;
+
+>  }
+
+
+>  //Mise au repos du moteur
 
 >  digitalWrite(pinMO1, LOW);
 

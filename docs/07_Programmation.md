@@ -12,29 +12,29 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 
 
 ## Définition des variables de contrôle
-> int delai = 60000;      //La DEL restera allumée - en rouge ou vert - pendant une minute après la fin du mouvement, tandis que durant le mouvement elle affichera jaune
->	 int pas = 20;           // 1 tour = 2048
->	 int sens = 1;
->	 int vitesseMax = 700;      //Max 700
->	 String libre = "oui";
->	 bool tourne = false;
->	 bool initOUV = false;
->	 bool initFER = false;
->	 int compteLOW = 0;
->	 int compteDEL = 0;
+>   int delai = 60000;
+>	int pas = 20;
+>	int sens = 1;
+>	int vitesseMax = 700;
+>	String libre = "oui";
+>	bool tourne = false;
+>	bool initOUV = false;
+>	bool initFER = false;
+>	int compteLOW = 0;
+>	int compteDEL = 0;
 
->	 int pinSW1 = 27;    //GPIO00 = pin 31  -> Interrupteur fermé lorsque la porte est ouverte  => DEL vert
->	 int pinSW2 = 26;    //GPIO01 = pin 32  -> Interrupteur fermé lorsque la porte est fermée   => DEL rouge
->	 int pinMO1 = 2;     //GPIOO2 = pin 4  -> Mouvement du moteur, contrôleur 1
->	 int pinMO2 = 3;     //GPIOO3 = pin 5  -> Mouvement du moteur, contrôleur 2
->	 int pinMO3 = 4;     //GPIOO4 = pin 6  -> Mouvement du moteur, contrôleur 3
->	 int pinMO4 = 5;     //GPIOO5 = pin 7  -> Mouvement du moteur, contrôleur 4
->	 int pinDER = 13;    //GPIO14 = pin 19 -> Rouge de la DEL;    ... DEL tri-colore : ici Rouge
->	 int pinDEV = 14;    //GPIO13 = pin 17 -> Vert de la DEL;     ... DEL tri-colore : ici Vert
->	 int pinDEB = 15;    //GPIO15 = pin 20 -> Bleu de la DEL;     ... DEL tri-colore : ici Bleu
->	 int pinBOUT = 22;   //GPIO28 = pin 34 -> Bouton d'activation de la barrure - côté maison
->	 byte CRT_RST = 21;  //GPIO21 = pin 27 -> Lecteur de cartes sans contact - Reset
->	 byte CRT_SSC = 17;  //GPIO17 = pin 22 -> Lecteur de cartes sans contact - SS
+>	int pinSW1 = 27;
+>	int pinSW2 = 26;
+>	int pinMO1 = 2;
+>	int pinMO2 = 3;
+>	int pinMO3 = 4;
+>	int pinMO4 = 5;
+>	int pinDER = 13;
+>	int pinDEV = 14;
+>	int pinDEB = 15;
+>	int pinBOUT = 22;
+>	byte CRT_RST = 21;
+>	byte CRT_SSC = 17;
 
 ## Définition des variables de travail
 > int rendu = 0;

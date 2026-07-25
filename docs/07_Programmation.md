@@ -150,7 +150,6 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	      sens = -1;
 >	      libre = "fermons";
 >	    }
-
 >	    digitalWrite(pinDER, HIGH);
 >	    digitalWrite(pinDEV, HIGH);
 >	    digitalWrite(pinDEB, HIGH);
@@ -178,7 +177,6 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	    Serial.println(pas);
 >	    int tours = 1;
 >	    int vitesse = 100;
-
 >	    //Mouvement
 >	    while (libre == "ouvrons" || libre == "fermons") {
 >	      if (tours/2500 == round(tours/2500) && vitesse < vitesseMax ) {
@@ -191,13 +189,11 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	      delay(10);
 >	      tours=tours+1;
 >	    }
-
 >	    //Mise au repos du moteur
 >	    digitalWrite(pinMO1, LOW);
 >	    digitalWrite(pinMO2, LOW);
 >	    digitalWrite(pinMO3, LOW);
 >	    digitalWrite(pinMO4, LOW);
-
 >	    //Indication de l'état du verrou
 >	    digitalWrite(pinDER, HIGH);
 >	    digitalWrite(pinDEV, HIGH);
@@ -226,8 +222,6 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	    libre = "oui";
 >	  }
 
-
-### Arrêt du moteur (fin du mouvement)
 
 ---
 [Impression 3d](06_Impression_3d.md) <<<  [Table des matières](README.md)  >>>  [Premier test](08_PremierTest.md)

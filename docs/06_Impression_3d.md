@@ -18,13 +18,13 @@ Les fichiers STL peuvent vous être utiles, mais ce serait étonnant car ils ont
 Il vous sera nécessire, donc, de générer vos propres fichiers STL à l'aide de votre logicition de tranchaage.
 
 [Fichiers STL](../../../tree/main/imprime_3d/stl/)
-* [Boulon](../../../tree/main/imprime_3d/stl/Motorisation_Barrure_v3-Boulon.stl))
-* [Butoire](../../../tree/main/imprime_3d/stl/Motorisation_Barrure_v3-Butoir.stl))
-* [Curseur](../../../tree/main/imprime_3d/stl/Motorisation_Barrure_v3-Curseur.stl))
-* [Structure](../../../tree/main/imprime_3d/stl/Motorisation_Barrure_v3-Structure.stl))
-* [Boitier_01](../../../tree/main/imprime_3d/stl/Obudowa.stl))
-* [Boitier_02](../../../tree/main/imprime_3d/stl/Panel.stl))
-* [Boitier_03](../../../tree/main/imprime_3d/stl/klapka.stl))
+* [Boulon](../../../tree/main/imprime_3d/stl/Motorisation_Barrure_v3-Boulon.stl)
+* [Butoire](../../../tree/main/imprime_3d/stl/Motorisation_Barrure_v3-Butoir.stl)
+* [Curseur](../../../tree/main/imprime_3d/stl/Motorisation_Barrure_v3-Curseur.stl)
+* [Structure](../../../tree/main/imprime_3d/stl/Motorisation_Barrure_v3-Structure.stl)
+* [Boitier_01](../../../tree/main/imprime_3d/stl/Obudowa.stl)
+* [Boitier_02](../../../tree/main/imprime_3d/stl/Panel.stl)
+* [Boitier_03](../../../tree/main/imprime_3d/stl/klapka.stl)
 
 
 ---

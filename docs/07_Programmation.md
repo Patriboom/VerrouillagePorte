@@ -44,7 +44,7 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	  MFRC522 cartes(CRT_SSC, CRT_RST);
 
 ## Définitions communes (setup)
->	 void setup() {
+>	  void setup() {
 >	    Serial.begin(115200);
 >	    delay(1550);
 >	    Serial.println("");
@@ -81,7 +81,7 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 
 
 ## Traitement en boucle (loop)
->	 void loop() {
+>	  void loop() {
 >	    rendu = rendu + 1;
 >	    if (rendu < 100 && libre == "oui") {
 >	      digitalWrite(pinDER, HIGH);

@@ -33,12 +33,12 @@ Voici comment seront utilisées les broches du Pico dans notre projet.
 # 3b. Le montage mécanique
 À ce point, il serait bon de considérer l'installation du verrou sur votre porte.
 Assurez-vous qu'il coulisse librement et facilement, que le verouillage se fasse sans effort de même que le déverrouillage.
-Gardez en tête que le petit moteur développe peu de puissance, que le tout est assemblée avec du plastique imprimé et  - donc - que toutes les composantes sont fragiles.
+Gardez en tête que le petit moteur développe peu de puissance, que le tout est assemblé avec du plastique imprimé et  - donc - que toutes les composantes sont fragiles.
 Le mouvement du verrou doit donc en tous points être facile et fluide.
 
 Les principaux points à vérifier:
 * insértion (et retrait) du verrou dans le logement de fermeture: alignement parfait, aisance de mouvement.
-[Voyez en action](../images/videos/deverrouillage.mp4)
+[Voyez en action - fichier MP4](../images/videos/deverrouillage.mp4)
 
 * le tenon du verrou ne doit pas s'engager dans les fentes d'immobilisation.
 

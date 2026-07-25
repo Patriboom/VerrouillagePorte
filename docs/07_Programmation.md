@@ -6,6 +6,10 @@ Ici, je vous explique les différentes parties du code afin que vous puissiez le
 Au travers du code, vous trouverez une foule de commentaires et même des repères et vérifications envoyés à la console afin que vous puissiez superviser la progression de la mise en oeuvre en direct.  Je ne reproduira pas ici les commentaires du code.
 
 ## Appel des bibliothèques nécessaires
+'#include <Stepper.h>
+#include <SPI.h>
+#include <MFRC522.h>
+'
 
 ## Définition des variables de contrôle
 

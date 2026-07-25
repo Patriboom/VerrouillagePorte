@@ -296,13 +296,9 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >    for (int x=0; x<5; x++) {
 
 >        digitalWrite(pinDEB, LOW);
-
 >        delay(250);
-
 >        digitalWrite(pinDEB, HIGH);
-
 >        delay(250);
-
 >    }
 
 >  }

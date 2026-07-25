@@ -22,7 +22,6 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	  bool initFER = false;
 >	  int compteLOW = 0;
 >	  int compteDEL = 0;
-
 >	  int pinSW1 = 27;
 >	  int pinSW2 = 26;
 >	  int pinMO1 = 2;
@@ -41,8 +40,8 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 
 
 ## Création des objets
-> Stepper moteur(32, pinMO1, pinMO3, pinMO2, pinMO4);  //Création de l'objet moteur
->	   MFRC522 cartes(CRT_SSC, CRT_RST);   // Création de l'objet cartes (lecteur de carte)
+>	  Stepper moteur(32, pinMO1, pinMO3, pinMO2, pinMO4);
+>	  MFRC522 cartes(CRT_SSC, CRT_RST);
 
 ## Définitions communes (setup)
 >	    Serial.begin(115200);
@@ -54,7 +53,6 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	    cartes.PCD_Init(); // Init each MFRC522 card
 >	    cartes.PCD_DumpVersionToSerial();
 >	    Serial.println("---------------------------------------");
-
 >	    pinMode(pinSW1, INPUT);   //Interrupteur fermé lorsque la porte est ouverte  => DEL vert
 >	    pinMode(pinSW2, INPUT);   //Interrupteur fermé lorsque la porte est fermée   => DEL rouge
 >	    pinMode(pinMO1, OUTPUT);  //Moteur 1
@@ -65,7 +63,6 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	    pinMode(pinDEV, OUTPUT);  //vert de la DEL
 >	    pinMode(pinDEB, OUTPUT);  //bleu de la DEL
 >	    pinMode(pinBOUT, INPUT);
-
 >	    digitalWrite(pinMO1, LOW);
 >	    digitalWrite(pinMO2, LOW);
 >	    digitalWrite(pinMO3, LOW);
@@ -73,15 +70,12 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	    digitalWrite(pinDER, HIGH);
 >	    digitalWrite(pinDEV, HIGH);
 >	    digitalWrite(pinDEB, HIGH);
-
 >	    delay(1000);
-
 >	    if (digitalRead(pinSW1) == digitalRead(pinSW2)) {
 >	      Serial.println("Nous avons trouvé le verrou en position médiane; nous ouvrons la porte.");
 >	      mouvonsMoteur(-1, "fermons");
 >	    }
 >	    Serial.println("Voici que tout est défini.  Il ne reste qu`à jouer de la porte.");
-
 >	  }  // fin de setup()
 
 
@@ -115,19 +109,15 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	      rendu = -1;
 >	      Serial.println("Nous voici en début de boucle.");
 >	    }
-
 >	    if (libre != "oui") { return; }
 >	    compteLOW = (digitalRead(pinBOUT) == HIGH) ? ++compteLOW : 0;
 >	    if (compteLOW > 10 ) { compteLOW = 0; mouvonsMoteur(0, ""); }
-
 >	    if ( (!cartes.PICC_IsNewCardPresent() || !cartes.PICC_ReadCardSerial())) {
 >	      return;
 >	    } else if (carteValide(cartes.uid.uidByte, cartes.uid.size)) {
 >	      mouvonsMoteur(0, "");
 >	    }
 >	  } //Fin de loop()
-
-### Vérification de l'état
 
 ### Contrôle de la validité de la carte
 >	  bool carteValide(byte *buffer, byte bufferSize) {

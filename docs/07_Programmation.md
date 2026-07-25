@@ -154,17 +154,16 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	    digitalWrite(pinDER, HIGH);
 >	    digitalWrite(pinDEV, HIGH);
 >	    digitalWrite(pinDEB, HIGH);
->  if (Sens != 0) {
->	   for (int x=0; x<5; x++) {
->	       digitalWrite(pinDEB, LOW);
->	       delay(250);
->	       digitalWrite(pinDEB, HIGH);
->	       delay(250);
->	   }
+>	    if (Sens != 0) {
+>	        for (int x=0; x<5; x++) {
+>	            digitalWrite(pinDEB, LOW);
+>	            delay(250);
+>	            digitalWrite(pinDEB, HIGH);
+>	            delay(250);
+>	        }
 >	    }
 >	    Serial.print  ("État de la situation: ");
 >	    Serial.print  ((libre == "ouvrons") ? "Femeture demandée. " : "Ouverture demandée. ");
-
 >	    if (libre == "ouvrons") {
 >	      digitalWrite(pinDER, LOW);
 >	      digitalWrite(pinDEV, HIGH);

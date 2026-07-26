@@ -44,82 +44,83 @@ Au travers du code, vous trouverez une foule de commentaires et même des repèr
 >	  MFRC522 cartes(CRT_SSC, CRT_RST);
 
 ## Définitions communes (setup)
->	  void setup() {
->	    Serial.begin(115200);
->	    delay(1550);
->	    Serial.println("");
->	    Serial.println("Bonjour à vous; voici vos informations de suivi ... ");
->	    SPI.begin();              // Init SPI bus
->	    Serial.println("SPI est démarré.");
->	    cartes.PCD_Init(); // Init each MFRC522 card
->	    cartes.PCD_DumpVersionToSerial();
->	    Serial.println("---------------------------------------");
->	    pinMode(pinSW1, INPUT);   //Interrupteur fermé lorsque la porte est ouverte  => DEL vert
->	    pinMode(pinSW2, INPUT);   //Interrupteur fermé lorsque la porte est fermée   => DEL rouge
->	    pinMode(pinMO1, OUTPUT);  //Moteur 1
->	    pinMode(pinMO2, OUTPUT);  //Moteur 2
->	    pinMode(pinMO3, OUTPUT);  //Moteur 3
->	    pinMode(pinMO4, OUTPUT);  //Moteur 4
->	    pinMode(pinDER, OUTPUT);  //rouge de la DEL
->	    pinMode(pinDEV, OUTPUT);  //vert de la DEL
->	    pinMode(pinDEB, OUTPUT);  //bleu de la DEL
->	    pinMode(pinBOUT, INPUT);
->	    digitalWrite(pinMO1, LOW);
->	    digitalWrite(pinMO2, LOW);
->	    digitalWrite(pinMO3, LOW);
->	    digitalWrite(pinMO4, LOW);
->	    digitalWrite(pinDER, HIGH);
->	    digitalWrite(pinDEV, HIGH);
->	    digitalWrite(pinDEB, HIGH);
->	    delay(1000);
->	    if (digitalRead(pinSW1) == digitalRead(pinSW2)) {
->	      Serial.println("Nous avons trouvé le verrou en position médiane; nous ouvrons la porte.");
->	      mouvonsMoteur(-1, "fermons");
->	    }
->	    Serial.println("Voici que tout est défini.  Il ne reste qu`à jouer de la porte.");
->	  }  // fin de setup()
-
+```	  void setup() {
+	    Serial.begin(115200);
+	    delay(1550);
+	    Serial.println("");
+	    Serial.println("Bonjour à vous; voici vos informations de suivi ... ");
+	    SPI.begin();              // Init SPI bus
+	    Serial.println("SPI est démarré.");
+	    cartes.PCD_Init(); // Init each MFRC522 card
+	    cartes.PCD_DumpVersionToSerial();
+	    Serial.println("---------------------------------------");
+	    pinMode(pinSW1, INPUT);   //Interrupteur fermé lorsque la porte est ouverte  => DEL vert
+	    pinMode(pinSW2, INPUT);   //Interrupteur fermé lorsque la porte est fermée   => DEL rouge
+	    pinMode(pinMO1, OUTPUT);  //Moteur 1
+	    pinMode(pinMO2, OUTPUT);  //Moteur 2
+	    pinMode(pinMO3, OUTPUT);  //Moteur 3
+	    pinMode(pinMO4, OUTPUT);  //Moteur 4
+	    pinMode(pinDER, OUTPUT);  //rouge de la DEL
+	    pinMode(pinDEV, OUTPUT);  //vert de la DEL
+	    pinMode(pinDEB, OUTPUT);  //bleu de la DEL
+	    pinMode(pinBOUT, INPUT);
+	    digitalWrite(pinMO1, LOW);
+	    digitalWrite(pinMO2, LOW);
+	    digitalWrite(pinMO3, LOW);
+	    digitalWrite(pinMO4, LOW);
+	    digitalWrite(pinDER, HIGH);
+	    digitalWrite(pinDEV, HIGH);
+	    digitalWrite(pinDEB, HIGH);
+	    delay(1000);
+	    if (digitalRead(pinSW1) == digitalRead(pinSW2)) {
+	      Serial.println("Nous avons trouvé le verrou en position médiane; nous ouvrons la porte.");
+	      mouvonsMoteur(-1, "fermons");
+	    }
+	    Serial.println("Voici que tout est défini.  Il ne reste qu`à jouer de la porte.");
+	  }  // fin de setup()
+```
 
 ## Traitement en boucle (loop)
->	  void loop() {
->	    rendu = rendu + 1;
->	    if (rendu < 100 && libre == "oui") {
->	      digitalWrite(pinDER, HIGH);
->	      digitalWrite(pinDEV, LOW);
->	      digitalWrite(pinDEB, LOW);
->	    } else if (rendu < 200 && libre == "oui") {
->	      digitalWrite(pinDER, HIGH);
->	      digitalWrite(pinDEV, HIGH);
->	      digitalWrite(pinDEB, LOW);
->	    } else if (rendu < 300 && libre == "oui") {
->	      digitalWrite(pinDER, LOW);
->	      digitalWrite(pinDEV, HIGH);
->	      digitalWrite(pinDEB, LOW);
->	    } else if (rendu < 400 && libre == "oui") {
->	      digitalWrite(pinDER, LOW);
->	      digitalWrite(pinDEV, HIGH);
->	      digitalWrite(pinDEB, HIGH);
->	    } else if (rendu < 500 && libre == "oui") {
->	      digitalWrite(pinDER, LOW);
->	      digitalWrite(pinDEV, LOW);
->	      digitalWrite(pinDEB, HIGH);
->	    } else if (rendu < 600 && libre == "oui") {
->	      digitalWrite(pinDER, HIGH);
->	      digitalWrite(pinDEV, LOW);
->	      digitalWrite(pinDEB, HIGH);
->	    } else {
->	      rendu = -1;
->	      Serial.println("Nous voici en début de boucle.");
->	    }
->	    if (libre != "oui") { return; }
->	    compteLOW = (digitalRead(pinBOUT) == HIGH) ? ++compteLOW : 0;
->	    if (compteLOW > 10 ) { compteLOW = 0; mouvonsMoteur(0, ""); }
->	    if ( (!cartes.PICC_IsNewCardPresent() || !cartes.PICC_ReadCardSerial())) {
->	      return;
->	    } else if (carteValide(cartes.uid.uidByte, cartes.uid.size)) {
->	      mouvonsMoteur(0, "");
->	    }
->	  } //Fin de loop()
+```	  void loop() {
+	    rendu = rendu + 1;
+	    if (rendu < 100 && libre == "oui") {
+	      digitalWrite(pinDER, HIGH);
+	      digitalWrite(pinDEV, LOW);
+	      digitalWrite(pinDEB, LOW);
+	    } else if (rendu < 200 && libre == "oui") {
+	      digitalWrite(pinDER, HIGH);
+	      digitalWrite(pinDEV, HIGH);
+	      digitalWrite(pinDEB, LOW);
+	    } else if (rendu < 300 && libre == "oui") {
+	      digitalWrite(pinDER, LOW);
+	      digitalWrite(pinDEV, HIGH);
+	      digitalWrite(pinDEB, LOW);
+	    } else if (rendu < 400 && libre == "oui") {
+	      digitalWrite(pinDER, LOW);
+	      digitalWrite(pinDEV, HIGH);
+	      digitalWrite(pinDEB, HIGH);
+	    } else if (rendu < 500 && libre == "oui") {
+	      digitalWrite(pinDER, LOW);
+	      digitalWrite(pinDEV, LOW);
+	      digitalWrite(pinDEB, HIGH);
+	    } else if (rendu < 600 && libre == "oui") {
+	      digitalWrite(pinDER, HIGH);
+	      digitalWrite(pinDEV, LOW);
+	      digitalWrite(pinDEB, HIGH);
+	    } else {
+	      rendu = -1;
+	      Serial.println("Nous voici en début de boucle.");
+	    }
+	    if (libre != "oui") { return; }
+	    compteLOW = (digitalRead(pinBOUT) == HIGH) ? ++compteLOW : 0;
+	    if (compteLOW > 10 ) { compteLOW = 0; mouvonsMoteur(0, ""); }
+	    if ( (!cartes.PICC_IsNewCardPresent() || !cartes.PICC_ReadCardSerial())) {
+	      return;
+	    } else if (carteValide(cartes.uid.uidByte, cartes.uid.size)) {
+	      mouvonsMoteur(0, "");
+	    }
+	  } //Fin de loop()
+```
 
 ### Contrôle de la validité de la carte
 >	  bool carteValide(byte *buffer, byte bufferSize) {

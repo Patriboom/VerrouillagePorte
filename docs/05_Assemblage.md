@@ -57,7 +57,7 @@ Voir toutes les utilités possibles de RaspPico en [cliquant ici](https</td><td>
 <tr><td>Broche 37</td><td>  3.3 V en</td><td></td><td></td></tr>
 <tr><td>Broche 38</td><td>  GND </td><td>  Mise à terre</td><td>fils bruns</td></tr>
 <tr><td>Broche 39</td><td>  5VCC </td><td>  Alimentation du Rasp Pico</td><td>fil rouge</td></tr>
-<tr><td>Broche 40</td><td>  Vbus 5V/td><td></td><td></td></tr>
+<tr><td>Broche 40</td><td>  Vbus 5V</td><td></td><td></td></tr>
 </table>
 
 

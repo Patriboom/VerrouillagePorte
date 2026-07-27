@@ -48,17 +48,17 @@ Voir toutes les utilités possibles de RaspPico en [cliquant ici](https</td><td>
 <tr><td>Broche 26</td><td>  GPIO-20 </td><td>  clavier 4x4 -> 1</td><td> vert</td></tr>
 <tr><td>Broche 27</td><td>  GPIO-21 </td><td>  Carte identification -> RST </td><td> fil vert</td></tr>
 <tr><td>Broche 28</td><td>  GND</td></tr>
-<tr><td>Broche 29</td><td>  GPIO-22 </td><td>  Bouton d'activation de la barrure, côté maison</td>fil bleu</tr>
-<tr><td>Broche 30</td><td>  GPIO-26 </td><td>  Interrupteur fermé lorsque la porte est fermée -> SGN</td>fil blanc-vert</tr>
-<tr><td>Broche 31</td><td>  GPIO-27 </td><td>  Interrupteur fermé lorsque la porte est ouverte -> SGN</td>fil vert</tr>
+<tr><td>Broche 29</td><td>  GPIO-22 </td><td>  Bouton d'activation de la barrure, côté maison</td<td>>fil bleu</td></tr>
+<tr><td>Broche 30</td><td>  GPIO-26 </td><td>  Interrupteur fermé lorsque la porte est fermée -> SGN</td><td>fil blanc-vert</td></tr>
+<tr><td>Broche 31</td><td>  GPIO-27 </td><td>  Interrupteur fermé lorsque la porte est ouverte -> SGN</td><td>fil vert</td></tr>
 <tr><td>Broche 32</td><td>  GND</td></tr>
 <tr><td>Broche 33</td><td> </td></tr>
 <tr><td>Broche 34</td><td> </td></tr>
 <tr><td>Broche 35</td><td> </td></tr>
-<tr><td>Broche 36</td><td>  3.3 VCC </td><td>  Alimentation de divers composants en 3.3 volts</td>fils oranges</tr>
+<tr><td>Broche 36</td><td>  3.3 VCC </td><td>  Alimentation de divers composants en 3.3 volts</td><td>fils oranges</td></tr>
 <tr><td>Broche 37</td><td> </td></tr>
 <tr><td>Broche 38</td><td>  GND </td><td>  Mise à terre</td>fils bruns</tr>
-<tr><td>Broche 39</td><td>  5VCC </td><td>  Alimentation du Rasp Pico</td>fil rouge</tr>
+<tr><td>Broche 39</td><td>  5VCC </td><td>  Alimentation du Rasp Pico</td><td>fil rouge</td></tr>
 <tr><td>Broche 40</td><td> </td></tr>
 </table>
 

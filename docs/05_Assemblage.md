@@ -15,7 +15,7 @@ Normalement, les numéros 1, 2 et 39 sont imprimés sur la carte, comme le montr
 <img src="../images/docs_05/PicoNumPin.jpg" alt="Numérotation" heigh="400" />
 
 ## Description des broches de RaspPi, selon l'utilité de ce projet.
-Voir toutes les utilités possibles de RaspPico en [cliquant ici](https</td><td> //pico.pinout.xyz/)
+Voir toutes les utilités possibles de RaspPico en [cliquant ici](https://pico.pinout.xyz/)
 
 <table>
 <tr><td>Broche 1</td><td>  GPIO-00 </td><td>  clavier 4x4 -> 8</td><td> fil blanc-brun</td></tr>

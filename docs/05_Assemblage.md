@@ -16,36 +16,50 @@ Puis, en remontant sur la droite, vous aurez les broches 21 à 40; la broche 40 
 Normalement, les numéros 1, 2 et 39 sont imprimés sur la carte, comme le montre l'image suivante.
 <img src="../images/docs_05/PicoNumPin.jpg" alt="Numérotation" heigh="400" />
 
-Voici la liste des connexions à effectuer entre les différents composants et RaspPico:
+## Description des broches de RaspPi, selon l'utilité de ce projet.
+Voir toutes les utilités possibles de RaspPico en [cliquant ici](https://pico.pinout.xyz/)
 
-## Liste des GPIO attribués au projet ci-bas
-* 00 clavier 4x4 - fil blanc-brun
-* 01 clavier 4x4 - fil brun
-* 02 Moteur - fil blanc-orange
-* 03 Moteur - fil blanc-bleu
-* 04 Moteur - fil blanc-vert
-* 05 Moteur - fil blanc-brun
-* 06
-* 07 clavier 4x4 - blanc-orange
-* 08 clavier 4x4 - orange
-* 09 clavier 4x4 - blanc-bleu
-* 10 clavier 4x4 - bleu
-* 11 clavier 4x4 - blanc-vert
-* 12
-* 13 DEL tricolor - rouge
-* 14 DEL tricolor - vert
-* 15 DEL tricolor - bleu
-* 16 Carte identification    - fil blanc-vert
-* 17 Carte identification    - fil blanc-bleu
-* 18 Carte identification    - fil blanc-brun
-* 19 Carte identification    - fil bleu
-* 20 clavier 4x4 - vert
-* 21 Carte identification    - fil vert
-* 22 Bouton d'activation de la barrure, côté maison
-* 26 pinSW1 - Interrupteur fermé lorsque la porte est fermée
-* 27 pinSW2 - Interrupteur fermé lorsque la porte est ouverte
-* 28
-* 29
+* Broche 1: GPIO-00 ... clavier 4x4 - fil blanc-brun
+* Broche 2: GPIO-01 ... clavier 4x4 - fil brun
+* Broche 3: GND
+* Broche 4: GPIO-02 ... Moteur - fil blanc-orange
+* Broche 5: GPIO-03 ... Moteur - fil blanc-bleu
+* Broche 6: GPIO-04 ... Moteur - fil blanc-vert
+* Broche 7: GPIO-05 ... Moteur - fil blanc-brun
+* Broche 8: GND
+* Broche 9:
+* Broche 10: GPIO-07 ...  clavier 4x4 - blanc-orange
+* Broche 11: GPIO-08 ...  clavier 4x4 - orange
+* Broche 12: GPIO-09 ...  clavier 4x4 - blanc-bleu
+* Broche 13: GND
+* Broche 14: GPIO-10 ...  clavier 4x4 - bleu
+* Broche 15: GPIO-11 ...  clavier 4x4 - blanc-vert
+* Broche 16:
+* Broche 17: GPIO-13 ... DEL tricolor - rouge
+* Broche 18: GND
+* Broche 19: GPIO-14 ... DEL tricolor - vert
+* Broche 20: GPIO-15 ... DEL tricolor - bleu
+* Broche 21: SPI -> MISO ... Carte identification    - fil blanc-vert
+* Broche 22: SPI -> SDA ... Carte identification    - fil blanc-bleu
+* Broche 23: GND
+* Broche 24: SPI -> CLOCK ... Carte identification    - fil blanc-brun
+* Broche 25: SPI -> MOSI ... Carte identification    - fil bleu
+* Broche 26: GPIO-20 ... clavier 4x4 - vert
+* Broche 27: GPIO-21 (RST) ... Carte identification    - fil vert
+* Broche 28: GND
+* Broche 29: GPIO-22 ... Bouton d'activation de la barrure, côté maison
+* Broche 30: GPIO-26 ... Interrupteur fermé lorsque la porte est fermée
+* Broche 31: GPIO-27 ... Interrupteur fermé lorsque la porte est ouverte
+* Broche 32: GND
+* Broche 33:
+* Broche 34:
+* Broche 35:
+* Broche 36: 3.3 VCC ... Alimentation de divers composants en 3.3 volts
+* Broche 37:
+* Broche 38: GND ... Mise à terre
+* Broche 39: 5VCC ... Alimentation du Rasp Pico
+* Broche 40:
+
 
 
 

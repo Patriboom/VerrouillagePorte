@@ -17,82 +17,50 @@ Normalement, les numéros 1, 2 et 39 sont imprimés sur la carte, comme le montr
 <img src="../images/docs_05/PicoNumPin.jpg" alt="Numérotation" heigh="400" />
 
 ## Description des broches de RaspPi, selon l'utilité de ce projet.
-Voir toutes les utilités possibles de RaspPico en [cliquant ici](https |//pico.pinout.xyz/)
+Voir toutes les utilités possibles de RaspPico en [cliquant ici](https</td><td> //pico.pinout.xyz/)
 
-| Broche1 | GPIO-00 | clavier 4x4 | fil blanc-brun |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche2 | GPIO-01 | clavier 4x4 | fil brun |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche3 | GND | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche4 | GPIO-02 | Moteur | fil blanc-orange |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche5 | GPIO-03 | Moteur | fil blanc-bleu |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche6 | GPIO-04 | Moteur | fil blanc-vert |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche7 | GPIO-05 | Moteur | fil blanc-brun |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche8 | GND | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche9 | ----- | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche10 | GPIO-07 |  clavier 4x4 | blanc-orange |
-| Broche11 | GPIO-08 |  clavier 4x4 | orange |
-| Broche12 | GPIO-09 |  clavier 4x4 | blanc-bleu |
-| Broche13 | GND | ------ | ----- | ------ |
-| Broche14 | GPIO-10 |  clavier 4x4 | bleu |
-| Broche15 | GPIO-11 |  clavier 4x4 | blanc-vert |
-| Broche16 | ----- | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche17 | GPIO-13 | DEL tricolor | rouge |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche18 | GND | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche19 | GPIO-14 | DEL tricolor | vert |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche20 | GPIO-15 | DEL tricolor | bleu |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche21 | SPI -> MISO | Carte identification | fil blanc-vert |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche22 | SPI -> SDA | Carte identification  | fil blanc-bleu |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche23 | GND | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche24 | SPI -> CLOCK | Carte identification | fil blanc-brun |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche25 | SPI -> MOSI | Carte identification | fil bleu |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche26 | GPIO-20 | clavier 4x4 | vert |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche27 | GPIO-21 (RST) | Carte identification | fil vert |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche28 | GND | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche29 | GPIO-22 | Bouton d'activation de la barrure, côté maison |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche30 | GPIO-26 | Interrupteur fermé lorsque la porte est fermée |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche31 | GPIO-27 | Interrupteur fermé lorsque la porte est ouverte |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche32 | GND | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche33 | | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche34 | | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche35 | | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche36 | 3.3 VCC | Alimentation de divers composants en 3.3 volts |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche37 | | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche38 | GND | Mise à terre |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche39 | 5VCC | Alimentation du Rasp Pico |
-| ----- | ----- | ------ | ----- | ------ |
-| Broche40 | | ------ | ----- | ------ |
-| ----- | ----- | ------ | ----- | ------ |
+<table>
+<tr><td>Broche 1</td><td>  GPIO-00 </td><td>  clavier 4x4</td><td> fil blanc-brun</td></tr>
+<tr><td>Broche 2</td><td>  GPIO-01 </td><td>  clavier 4x4</td><td> fil brun</td></tr>
+<tr><td>Broche 3</td><td>  GND</td></tr>
+<tr><td>Broche 4</td><td>  GPIO-02 </td><td>  Moteur</td><td> fil blanc-orange</td></tr>
+<tr><td>Broche 5</td><td>  GPIO-03 </td><td>  Moteur</td><td> fil blanc-bleu</td></tr>
+<tr><td>Broche 6</td><td>  GPIO-04 </td><td>  Moteur</td><td> fil blanc-vert</td></tr>
+<tr><td>Broche 7</td><td>  GPIO-05 </td><td>  Moteur</td><td> fil blanc-brun</td></tr>
+<tr><td>Broche 8</td><td>  GND</td></tr>
+<tr><td>Broche 9</td><td> </td></tr>
+<tr><td>Broche 10</td><td>  GPIO-07 </td><td>   clavier 4x4</td><td> blanc-orange</td></tr>
+<tr><td>Broche 11</td><td>  GPIO-08 </td><td>   clavier 4x4</td><td> orange</td></tr>
+<tr><td>Broche 12</td><td>  GPIO-09 </td><td>   clavier 4x4</td><td> blanc-bleu</td></tr>
+<tr><td>Broche 13</td><td>  GND</td></tr>
+<tr><td>Broche 14</td><td>  GPIO-10 </td><td>   clavier 4x4</td><td> bleu</td></tr>
+<tr><td>Broche 15</td><td>  GPIO-11 </td><td>   clavier 4x4</td><td> blanc-vert</td></tr>
+<tr><td>Broche 16</td><td> </td></tr>
+<tr><td>Broche 17</td><td>  GPIO-13 </td><td>  DEL tricolor</td><td> rouge</td></tr>
+<tr><td>Broche 18</td><td>  GND</td></tr>
+<tr><td>Broche 19</td><td>  GPIO-14 </td><td>  DEL tricolor</td><td> vert</td></tr>
+<tr><td>Broche 20</td><td>  GPIO-15 </td><td>  DEL tricolor</td><td> bleu</td></tr>
+<tr><td>Broche 21</td><td>  SPI -> MISO </td><td>  Carte identification   </td><td> fil blanc-vert</td></tr>
+<tr><td>Broche 22</td><td>  SPI -> SDA </td><td>  Carte identification   </td><td> fil blanc-bleu</td></tr>
+<tr><td>Broche 23</td><td>  GND</td></tr>
+<tr><td>Broche 24</td><td>  SPI -> CLOCK </td><td>  Carte identification   </td><td> fil blanc-brun</td></tr>
+<tr><td>Broche 25</td><td>  SPI -> MOSI </td><td>  Carte identification   </td><td> fil bleu</td></tr>
+<tr><td>Broche 26</td><td>  GPIO-20 </td><td>  clavier 4x4</td><td> vert</td></tr>
+<tr><td>Broche 27</td><td>  GPIO-21 (RST) </td><td>  Carte identification   </td><td> fil vert</td></tr>
+<tr><td>Broche 28</td><td>  GND</td></tr>
+<tr><td>Broche 29</td><td>  GPIO-22 </td><td>  Bouton d'activation de la barrure, côté maison</td></tr>
+<tr><td>Broche 30</td><td>  GPIO-26 </td><td>  Interrupteur fermé lorsque la porte est fermée</td></tr>
+<tr><td>Broche 31</td><td>  GPIO-27 </td><td>  Interrupteur fermé lorsque la porte est ouverte</td></tr>
+<tr><td>Broche 32</td><td>  GND</td></tr>
+<tr><td>Broche 33</td><td> </td></tr>
+<tr><td>Broche 34</td><td> </td></tr>
+<tr><td>Broche 35</td><td> </td></tr>
+<tr><td>Broche 36</td><td>  3.3 VCC </td><td>  Alimentation de divers composants en 3.3 volts</td></tr>
+<tr><td>Broche 37</td><td> </td></tr>
+<tr><td>Broche 38</td><td>  GND </td><td>  Mise à terre</td></tr>
+<tr><td>Broche 39</td><td>  5VCC </td><td>  Alimentation du Rasp Pico</td></tr>
+<tr><td>Broche 40</td><td> </td></tr>
+</table>
 
 
 
